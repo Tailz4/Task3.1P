@@ -3,12 +3,12 @@
 
 // Wifi Information
 WiFiClient client;
-char ssid[] = "wifi1";
-char pass[] = "P@ssword123456789";
+char ssid[] = "###";
+char pass[] = "###";
 
 // IFTTT Webhook Trigger
 char   HOST_NAME[] = "maker.ifttt.com";
-String PATH_NAME   = "/trigger/sunlight_threshold/with/key/bUkKVtlxaqyi1w77_9x8fE";
+String PATH_NAME   = "/trigger/####/with/key/#####";
 
 // Sunlight variables
 int sensorPin = A0;
